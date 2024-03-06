@@ -1,14 +1,16 @@
 # odin-admin-dashboard
 
 #TODO
--podstawowy grid
+
 -grid i flex dla elementow
--logo
--awatar
--3 dodatkowe awatary z branzy i ich githuby
--kolory
--li icons
+
+-kolory po lewej #be123c shadow #E3B505 buttony takie jak lewo
+
 -card lewy kolorowy shadow
--icony jak lepiej- font awesome czy png
--Linki do githubow
 -Tytulatura githubowa
+-attribution widoczny
+-czcionka roboto
+-czcionka na side biala
+-czcionka na reszcie czarna
+
+Github links: -https://github.com/bradtraversy -https://github.com/bazankamil- -https://github.com/codediodeio -https://github.com/ThePrimeagen

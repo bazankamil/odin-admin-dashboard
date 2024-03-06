@@ -49,7 +49,7 @@ table {
 }
 
 body {
-  background-color: #222;
+  background-color: #574c4c;
 }
 
 /* || VARIABLES*/
@@ -70,7 +70,88 @@ body {
   text-align: center;
 }
 
-/* BEM */
+/* || BEM */
+
+body {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+/* CONTAINER */
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(250px, 1fr) 4fr;
+  grid-template-rows: 1fr 25px;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+/* MAIN */
+
+.main {
+  display: grid;
+  grid-template-rows: minmax(150px, 1fr) 5fr;
+}
+
+/* TITLE */
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+/* TITLE-SEARCH */
+
+/* TITLE-ACTION */
+
+/* HERO */
+
+.hero {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+/* HERO-PROJECTS */
+
+.hero__projects {
+  grid-row: 1/3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 25px repeat(3, 1fr);
+}
+
+.projects__title {
+  grid-column: 1/3;
+}
+
+/* HERO-ANNOUNCMENT */
+
+.hero__announcements {
+  display: grid;
+  grid-template-rows: 25px repeat(3, 1fr);
+}
+
+/* HERO-TRENDING */
+
+.hero__trending {
+  display: grid;
+  grid-template-rows: 25px repeat(3, 1fr);
+}
+
+/* ATTRIBUTION */
+
+.attribution {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
 
 /* MEDIA */
 /* Small */
