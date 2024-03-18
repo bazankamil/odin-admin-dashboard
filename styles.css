@@ -89,8 +89,51 @@ body {
 /* SIDEBAR */
 
 .sidebar {
+  background-color: #be123c;
+  color: aliceblue;
+  font-weight: 700;
   display: flex;
   flex-direction: column;
+  gap: 40px;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar ul img,
+.sidebar__title img {
+  height: 25px;
+  width: 25px;
+  filter: invert(100%) sepia(92%) saturate(1334%) hue-rotate(172deg)
+    brightness(107%) contrast(104%);
+}
+
+.sidebar__title img {
+  height: 35px;
+  width: 35px;
+  margin-right: 20px;
+}
+
+.sidebar__title {
+  font-size: 30px;
+  display: flex;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+.sidebar ul li {
+  height: 2rem;
+  padding-left: 2rem;
+  font-size: 20px;
+  display: flex;
+}
+
+.sidebar ul span {
+  padding-top: 2px;
+  padding-left: 20px;
 }
 
 /* MAIN */
