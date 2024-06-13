@@ -5,10 +5,16 @@
 -alty do zdjec i wymiary
 
 -zrobic jedna karte i skopiowac
+-tluste napisy
+-szary tekst
+-lewy kolorowy shadow
+-projekt tytul
 
 - -kolory po lewej #be123c shadow #E3B505 buttony takie jak lewo
 
   -card lewy kolorowy shadow
+  -navbar ma cien na dole
+  -announcment i trending tez maja cien
   -Tytulatura githubowa
   -attribution widoczny
   -czcionka roboto
