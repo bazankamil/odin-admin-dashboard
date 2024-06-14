@@ -9,6 +9,10 @@
 -szary tekst
 -lewy kolorowy shadow
 -projekt tytul
+-stopka z attribution
+-lekki shadow na wszystko
+
+-attribution widoczny plus na plycie glownej w gridzie
 
 - -kolory po lewej #be123c shadow #E3B505 buttony takie jak lewo
 
